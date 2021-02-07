@@ -1,0 +1,9 @@
+{
+  "name": "class01-mocks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "sucrase": "^3.17.1"
+  }
+}
