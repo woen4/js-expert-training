@@ -1,0 +1,14 @@
+{
+  "name": "js-expert",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "modules/**"
+    ]
+  },
+  "repository": "https://github.com/woen4/js-expert-training.git",
+  "author": "woen4 <woenof@gmail.com>",
+  "license": "MIT"
+}
