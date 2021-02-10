@@ -1,0 +1,13 @@
+{
+  "name": "project01-tdd_bdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "seed": "sucrase-node seed"
+  },
+  "devDependencies": {
+    "faker": "^5.3.1",
+    "sucrase": "^3.17.1"
+  }
+}
