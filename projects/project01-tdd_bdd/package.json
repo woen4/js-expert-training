@@ -4,10 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "seed": "sucrase-node seed"
+    "seed": "sucrase-node seed",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
     "faker": "^5.3.1",
+    "jest": "^26.6.3",
+    "sinon": "^9.2.4",
     "sucrase": "^3.17.1"
+  },
+  "dependencies": {
+    "@sucrase/jest-plugin": "^2.0.0"
   }
 }
