@@ -26,12 +26,10 @@ module.exports = {
   coverageDirectory: 'coverage',
 
   // An array of regexp pattern strings used to skip coverage collection
-  // coveragePathIgnorePatterns: [
-  //   "/node_modules/"
-  // ],
+  coveragePathIgnorePatterns: ['/node_modules/', '/src/repository/bases/'],
 
   // Indicates which provider should be used to instrument code for coverage
-  // coverageProvider: "babel",
+  coverageProvider: 'babel',
 
   // A list of reporter names that Jest uses when writing coverage reports
   // coverageReporters: [
@@ -176,9 +174,7 @@ module.exports = {
   // timers: "real",
 
   // A map from regular expressions to paths to transformers
-  transform: {
-    '.(js|jsx|ts|tsx)': '@sucrase/jest-plugin',
-  },
+  transform: { '.(js|jsx|tx|tsx)': '@sucrase/jest-plugin' },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [
